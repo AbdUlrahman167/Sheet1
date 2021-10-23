@@ -18,7 +18,11 @@ Run python autograder.py
 
 
 def add(a, b):
-    "Return the sum of a and b"
-    "*** YOUR CODE HERE ***"
-
-    return 0
+    return (a + b)
+#input your numbers
+a=float(input("1th.: "))
+b=float(input("2th.: "))
+print(add(a,b))
+    
+   
+   
