@@ -32,7 +32,7 @@ def shopSmart(orderList, fruitShops):
     
     x = fruitShops[0]
     for shop in fruitShops:
-        if shop.getPriceOfOrder(orderList) <= fruitshop.getPriceOfOrder(orderList):
+        if shop.getPriceOfOrder(orderList) <= x.getPriceOfOrder(orderList):
             x = shop
     return x
 
